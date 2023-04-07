@@ -1,0 +1,28 @@
+; Definition file for kfm
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "roro"        ;Name of character
+displayname = "roro" ;Name of character to display
+versiondate = 04,06,2023    ;Version date of character
+mugenversion = 04,06,2023   ;Version of M.U.G.E.N character works on
+author = "Elecbyte"         ;Character author name
+pal.defaults = 6,3,4,2      ;Default palettes in order of preference
+
+; Files for the player
+[Files]
+cmd     = kfm.cmd   ;Command set
+cns     = kfm.cns   ;Constants
+st      = kfm.cns   ;States
+stcommon = common2.cns ;Common states
+sprite  = kfm.sff   ;Sprite
+anim    = kfm.air   ;Animation
+sound   = kfm.snd   ;Sound
+pal1    = kfm.act  ;Palettes (can have up to 12)
+pal2    = kfm.act
+pal3    = kfm.act
+pal4    = kfm.act
+pal5    = kfm.act
+pal6    = kfm.act
+pal7    = kfm.act
